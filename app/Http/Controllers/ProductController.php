@@ -9,8 +9,8 @@ class ProductController extends Controller
     public function index()
     {
 
-        return Inertia::render('Products/Index', [
-            'products' => "Hello, this is the products index page!",
+        return Inertia::render('SimplePage', [
+            'message' => 'Welcome to the Products Page',
         ]);
     }
 }
